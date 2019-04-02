@@ -10,8 +10,8 @@
     "serve-src": "http-server -c-1",
     "serve-dist": "http-server -c-1 dist"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Murilo Polese <murilopolese@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-transform-reserved-words": "^7.2.0",
