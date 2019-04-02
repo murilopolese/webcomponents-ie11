@@ -1,0 +1,32 @@
+{
+  "name": "ie11-support",
+  "version": "0.0.1",
+  "description": "Example of how to build for IE11 using native webcomponents, gulp, babel and webpack.",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "start": "npm run serve-src",
+    "serve-src": "http-server -c-1",
+    "serve-dist": "http-server -c-1 dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-reserved-words": "^7.2.0",
+    "@babel/preset-env": "^7.4.2",
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-member-expression-literals": "^6.9.4",
+    "babel-plugin-transform-property-literals": "^6.9.4",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-smoosher": "0.0.9",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
